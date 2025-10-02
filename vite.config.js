@@ -116,7 +116,7 @@ export default defineConfig(({ command }) => {
       },
       rollupOptions: {
         input: {
-          main: resolve(__dirname, 'publc/pages/index.html'),
+          main: resolve(__dirname, 'public/pages/index.html'),
         },
         output: {
           entryFileNames: '[hash].js',
