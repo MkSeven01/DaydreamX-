@@ -22,7 +22,7 @@ let bare;
 
 Object.assign(wisp.options, {
   dns_method: 'resolve',
-  dns_servers: ['1.1.1.3', '1.0.0.3', '1.1.1.1', '1.0.0.1', '1.1.1.2', '1.0.0.2'],
+  dns_servers: ['1.1.1.3', '1.0.0.3'],
   dns_result_order: 'ipv4first',
 });
 
@@ -71,11 +71,10 @@ export default defineConfig(({ command }) => {
           useBare && { src: [normalizePath(resolve(bareModulePath, '*'))], dest: 'baremod' },
           {
             src: [
-              normalizePath(resolve(uvPath, 'uv.handler.js')),
-              normalizePath(resolve(uvPath, 'uv.client.js')),
-              normalizePath(resolve(uvPath, 'uv.bundle.js')),
-              normalizePath(resolve(uvPath, 'uv.sw.js')),
-              normalizePath(resolve(uvPath, 'sw.js')),
+              normalizePath(resolve(uvPath, 'public/static/@/uv.handler.js')),
+              normalizePath(resolve(uvPath, 'public/static/@/uv.client.js')),
+              normalizePath(resolve(uvPath, 'public/static/@/uv.bundle.js')),
+              normalizePath(resolve(uvPath, 'public/static/@/sw.js')),
             ],
             dest: 'uv',
           },
@@ -108,19 +107,40 @@ export default defineConfig(({ command }) => {
       },
     ],
     build: {
-      esbuild: { legalComments: 'none' },
+      esbuild: { 
+        legalComments: 'none',
+        minifyIdentifiers: true,
+        minifySyntax: true,
+        minifyWhitespace: true,
+        treeShaking: true
+      },
       rollupOptions: {
         input: {
-          main: resolve(__dirname, 'public/pages/index.html'),
+          main: resolve(__dirname, 'publc/pages/index.html'),
         },
         output: {
           entryFileNames: '[hash].js',
           chunkFileNames: (chunk) =>
-            chunk.name === 'vendor-modules' ? 'chunks/vendor-modules.js' : 'chunks/[hash].js',
+            chunk.name === 'vendor-modules' ? 'chunks/vendor-modules.[hash].js' : 'chunks/[hash].js',
           assetFileNames: 'assets/[hash].[ext]',
-          manualChunks: (id) => (id.includes('node_modules') ? 'vendor-modules' : undefined),
+          manualChunks: (id) => {
+            if (id.includes('node_modules')) {
+              if (id.includes('react') || id.includes('react-dom')) return 'react-vendor';
+              if (id.includes('lucide') || id.includes('@mui')) return 'ui-vendor';
+              return 'vendor-modules';
+            }
+          },
         },
+        treeshake: {
+          moduleSideEffects: false,
+          propertyReadSideEffects: false,
+          unknownGlobalSideEffects: false
+        }
       },
+      chunkSizeWarningLimit: 1000,
+      minify: 'esbuild',
+      sourcemap: false,
+      reportCompressedSize: false
     },
     css: {
       modules: {
