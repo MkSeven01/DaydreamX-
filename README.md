@@ -71,9 +71,9 @@ To contribute to DDX, clone the repo locally and submit your code in a pull
 request. If you are making large changes, please make sure you test your code
 before submitting a pull request. Please check [CONTRIB.md](/CONTRIB.md) for a more in-depth explanation.
 
-## Contributors
+## OG Nightproxy Contributors
 
-Thank you to the following people for contributing to DayDreamX.
+Thank you to the following people for contributing to og DayDreamX.
 
 [![Contributors](https://contrib.rocks/image?repo=NxroProxy/DayDreamX)](https://github.com/NightProxy/DayDreamX/graphs/contributors)
 
