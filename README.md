@@ -69,7 +69,7 @@ git pull --force --allow-unrelated-histories
 
 To contribute to DDX, clone the repo locally and submit your code in a pull
 request. If you are making large changes, please make sure you test your code
-before submitting a pull request. Please check [CONTRIB.md](https://github.com/NightProxy/DayDreamX/blob/main/CONTRIB.md) for a more in-depth explanation.
+before submitting a pull request. Please check [CONTRIB.md](/CONTRIB.md) for a more in-depth explanation.
 
 ## Contributors
 
