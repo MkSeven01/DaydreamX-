@@ -59,7 +59,9 @@ const proxy = (url, type="application/javascript") => async (req, reply) => {
   } catch { return reply.code(500).send(); }
 };
 
+app.get("/assets/img/*", proxy(req => `https://dogeub-assets.pages.dev/img/${req.params["*"]}`, ""));
 app.get("/js/script.js", proxy(()=> "https://byod.privatedns.org/js/script.js"));
+app.get("/ds", (req, res) => res.redirect("https://discord.gg/ZBef7HnAeg"));
 app.get("/return", async (req, reply) =>
   req.query?.q
     ? fetch(`https://duckduckgo.com/ac/?q=${encodeURIComponent(req.query.q)}`)
@@ -69,7 +71,7 @@ app.get("/return", async (req, reply) =>
 
 app.setNotFoundHandler((req, reply) =>
   req.raw.method==="GET" && req.headers.accept?.includes("text/html")
-    ? reply.sendFile("public/pages/index.html")
+    ? reply.sendFile("index.html")
     : reply.code(404).send({ error: "Not Found" })
 );
 
