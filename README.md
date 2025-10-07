@@ -81,13 +81,12 @@ Please join our Discord to receive support for DayDreamX, receive links from the
 
 ### Made possible thanks to:
 
-* [MercuryWorkshop/wisp-server-node](https://github.com/MercuryWorkshop/wisp-server-node)
+* [MercuryWorkshop/wisp-client-js](https://github.com/MercuryWorkshop/wisp-client-js)
 * [MercuryWorkshop/scramjet](https://github.com/MercuryWorkshop/scramjet)
 * [titaniumnetwork-dev/Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)
 * [Eclipse-Proxy/Eclipse](https://github.com/Eclipse-Proxy/Eclipse)
 * [ading2210/Sandstone](https://github.com/ading2210/sandstone)
 * [MeteorProxy/meteor](https://github.com/MeteorProxy/meteor-old)
-* [lucide-icons/lucide](https://github.com/lucide-icons/lucide)
 
 ## License
 
