@@ -22,10 +22,6 @@
 
 ## Deployment
 
-> [!WARNING]
-> You **can not** host DDX locally via a static web hosting site
-> such as Netlify, Github Pages, and Cloudflare Pages.
-
 We recommend using the Bun package manager to install DayDreamX's dependencies. However, DayDreamX contains lock files for three major package managers: npm, pnpm, and bun.
 
 Please run the following commands to host a server:
