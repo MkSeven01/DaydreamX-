@@ -7,6 +7,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 import { logging, server as wisp } from '@mercuryworkshop/wisp-js/server';
 import { createBareServer } from "@tomphttp/bare-server-node";
 import { bareModulePath } from '@mercuryworkshop/bare-as-module3';
+import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 import { libcurlPath } from '@mercuryworkshop/libcurl-transport';
 import { baremuxPath } from '@mercuryworkshop/bare-mux/node';
 import { scramjetPath } from "@mercuryworkshop/scramjet/path";
@@ -24,6 +25,8 @@ Object.assign(wisp.options, {
   dns_method: 'resolve',
   dns_servers: ['1.1.1.3', '1.0.0.3'],
   dns_result_order: 'ipv4first',
+  wisp_version = 2;,
+  wisp_motd = "WISP server";
 });
 
 const routeRequest = (req, resOrSocket, head) => {
