@@ -86,6 +86,7 @@ Please join our Discord to receive support for DayDreamX, receive links from the
 * [titaniumnetwork-dev/Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)
 * [Eclipse-Proxy/Eclipse](https://github.com/Eclipse-Proxy/Eclipse)
 * [ading2210/Sandstone](https://github.com/ading2210/sandstone)
+* [MeteorProxy/meteor](https://github.com/MeteorProxy/meteor-old)
 * [lucide-icons/lucide](https://github.com/lucide-icons/lucide)
 
 ## License
