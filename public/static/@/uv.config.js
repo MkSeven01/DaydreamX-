@@ -102,6 +102,7 @@ const blocked = [
   "an.facebook.com",
   "static.ads-twitter.com",
   "ads-api.twitter.com",
+  "google-analytics.com",
 ];
 
 const blockedsites = [
@@ -219,6 +220,7 @@ self.__uv$config = {
       }
       if (url.pathname.includes("ads.js") ||
         url.pathname.includes("pagead.js") ||
+		url.pathname.includes("ad status.js") ||
         url.pathname.includes("partner.ads.js")) {
         return new Response(null, {});
       }
