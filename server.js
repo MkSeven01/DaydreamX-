@@ -18,8 +18,6 @@ Object.assign(wisp.options, {
   dns_method: 'resolve',
   dns_servers: ['1.1.1.3', '1.0.0.3'],
   dns_result_order: 'ipv4first',
-  wisp_version: 2;,
-  wisp_motd: "WISP server";
 });
 
 server.on("upgrade", (req, sock, head) =>
