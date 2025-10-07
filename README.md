@@ -82,3 +82,15 @@ Thank you to the following people for contributing to og DayDreamX.
 Please join our Discord to receive support for DayDreamX, receive links from the Link Archive (our link bot), and talk with fellow users.
 
 [![Discord](https://invidget.switchblade.xyz/QmWUfvm4bn?theme=dark)](https://discord.night-x.com)
+
+### Made possible thanks to:
+
+* [MercuryWorkshop/wisp-server-node](https://github.com/MercuryWorkshop/wisp-server-node)
+* [MercuryWorkshop/scramjet](https://github.com/MercuryWorkshop/scramjet)
+* [titaniumnetwork-dev/Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)
+* [lucide-icons/lucide](https://github.com/lucide-icons/lucide)
+
+## License
+
+This project is licensed under the **GNU Affero GPL v3**.  
+See the [LICENSE](LICENSE) file for more details.
