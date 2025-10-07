@@ -71,10 +71,10 @@ export default defineConfig(({ command }) => {
           useBare && { src: [normalizePath(resolve(bareModulePath, '*'))], dest: 'baremod' },
           {
             src: [
-              normalizePath(resolve(uvPath, 'public/static/@/uv.handler.js')),
-              normalizePath(resolve(uvPath, 'public/static/@/uv.client.js')),
-              normalizePath(resolve(uvPath, 'public/static/@/uv.bundle.js')),
-              normalizePath(resolve(uvPath, 'public/static/@/sw.js')),
+              normalizePath(resolve(uvPath, 'uv.handler.js')),
+              normalizePath(resolve(uvPath, 'uv.client.js')),
+              normalizePath(resolve(uvPath, 'uv.bundle.js')),
+              normalizePath(resolve(uvPath, 'sw.js')),
             ],
             dest: 'uv',
           },
