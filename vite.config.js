@@ -1,5 +1,3 @@
-import cors from "cors";
-import chalk from "chalk";
 import { defineConfig, normalizePath } from 'vite';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -15,10 +13,6 @@ import { baremuxPath } from '@mercuryworkshop/bare-mux/node';
 import { scramjetPath } from "@mercuryworkshop/scramjet/path";
 import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
 import dotenv from "dotenv";
-import fs from "node:fs";
-import Git from "./srv/git.js";
-import { execSync } from "child_process";
-import router from "./srv/router.js";
 
 dotenv.config();
 const useBare = process.env.BARE === "false" ? false : true;
@@ -31,8 +25,6 @@ Object.assign(wisp.options, {
   dns_method: 'resolve',
   dns_servers: ['1.1.1.3', '1.0.0.3'],
   dns_result_order: 'ipv4first',
-  wisp_version: 2;,
-  wisp_motd: "WISP server";
 });
 
 const routeRequest = (req, resOrSocket, head) => {
