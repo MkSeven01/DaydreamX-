@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     },
     ec: {
       type: "sw",
-      file: "/~/sw.js",
+      file: "/e/sw.js",
       config: __eclipse$config,
       func: null,
     },
