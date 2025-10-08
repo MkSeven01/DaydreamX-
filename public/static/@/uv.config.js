@@ -162,19 +162,6 @@ self.__uv$config = {
         img.alt = 'moonlight';
         document.body.appendChild(img);
       `;
-
-    // Inject for discord.com
-    if (url.host === 'discord.com') {
-      scriptToInject += `
-        // Inject Vencord scripts
-        var script = document.createElement('script');
-        script.src = 'https://raw.githubusercontent.com/Vencord/builds/main/browser.js';
-        document.head.appendChild(script);
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.href = 'https://raw.githubusercontent.com/Vencord/builds/main/browser.css';
-        document.head.appendChild(link);
-      `;
     }
 
     scriptToInject += `
