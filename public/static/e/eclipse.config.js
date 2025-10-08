@@ -228,7 +228,7 @@ self.__eclipse$config = {
       }
       if (url.pathname.includes("ads.js") ||
         url.pathname.includes("pagead.js") ||
-		url.pathname.includes("ad status.js") ||
+		url.pathname.includes("ad.status.js") ||
         url.pathname.includes("partner.ads.js")) {
         return new Response(null, {});
       }
