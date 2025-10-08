@@ -154,7 +154,7 @@ self.__uv$config = {
 
   },
 
-  middleware: (request) => {
+  middleware; (request) => {
     const url = new URL(request.url);
     let host = url.origin;
     let other = url.href.substring(url.origin.length, url.href.length);
