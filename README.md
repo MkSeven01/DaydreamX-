@@ -11,7 +11,8 @@
 > star. Thank you!
 
 ## Features
-
+- Performance: Fast, lightweight, and highly responsive.
+- Secure privacy anti tracking 
 - Cloaking
 - Tabs
 - History
