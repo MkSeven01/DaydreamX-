@@ -74,7 +74,7 @@ Thank you to the following people for contributing to og DayDreamX.
 
 [![Contributors](https://contrib.rocks/image?repo=NxroProxy/DayDreamX)](https://github.com/NightProxy/DayDreamX/graphs/contributors)
 
-## Discord
+## Nightnetwork Discord
 
 Please join our Discord to receive support for DayDreamX, receive links from the Link Archive (our link bot), and talk with fellow users.
 
