@@ -41,7 +41,18 @@ cd DayDreamX
 npm i
 npm run dev
 ```
-### to start server
+### To setup proxy server
+```
+npm i
+npm run build
+node server.js
+```
+### To setup proxy dev server
+```
+npm i
+npm run dev
+```
+### To start proxy server
 ```
 node server.js
 ```
