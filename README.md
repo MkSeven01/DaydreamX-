@@ -78,7 +78,7 @@ Thank you to the following people for contributing to og DayDreamX.
 
 Please join our Discord to receive support for DayDreamX, receive links from the Link Archive (our link bot), and talk with fellow users.
 
-[![Discord](https://invidget.switchblade.xyz/QmWUfvm4bn?theme=dark)](https://discord.night-x.com)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.night-x.com)
 
 ### Made possible thanks to:
 
