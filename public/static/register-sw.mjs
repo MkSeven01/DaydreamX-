@@ -4,6 +4,7 @@
  */
 const stockSW = "/static/@/uv.sw.js";
 const stockSW = "/static/e/eclipse.worker.js";
+const stockSW = "/static/$/scramjet.shared.js";
 
 /**
  * List of hostnames that are allowed to run serviceworkers on http://
