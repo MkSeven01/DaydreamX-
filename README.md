@@ -64,8 +64,8 @@ In the above example, replace `npm` with `bun` or `pnpm` for whichever package m
 ```
 git pull --force --allow-unrelated-histories
 ```
-
-<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/NightProxy/DayDreamX"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/jkjkjiin/DaydreamX-"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/jkjkjiin/DaydreamX-/"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 
 ## Help & Support
 
