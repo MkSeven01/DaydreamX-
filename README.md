@@ -99,7 +99,7 @@ Thank you to the following people for contributing to og DayDreamX.
 Please join our Discord to receive support for DayDreamX, receive links from the Link Archive (our link bot), and talk with fellow users.
 
 <a href="https://discord.night-x.com">
-<img alt="Discord" src="https://img.shields.io/discord/1128826318813921350?style=for-the-badge&logo=discord&label=Join%20Discord&labelColor=white&color=%09%237289da">
+<img alt="Discord" src="https://img.shields.io/discord/1128826318813921350?style=for-the-badge&logo=discord&label=Join%20Discord&labelColor=grey&color=%09%237289da">
 </a>
 
 
