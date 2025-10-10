@@ -1,8 +1,9 @@
 "use strict";
 /**
- * Distributed with Ultraviolet and compatible with most configurations.
+ * Distributed with all proxy transports and compatible with most configurations.
  */
 const stockSW = "/static/@/uv.sw.js";
+const stockSW = "/static/e/eclipse.worker.js";
 
 /**
  * List of hostnames that are allowed to run serviceworkers on http://
