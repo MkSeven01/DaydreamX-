@@ -76,9 +76,6 @@ git pull --force --allow-unrelated-histories
 <a target="_blank" href="https://deploy.cloud.run/?git_repo=https://github.com/QuiteAFancyEmerald/Holy-Unblocker/"><img alt="Run on Google Cloud" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/googlecloud.svg"></a>
 
 
-<details><summary>Alternative Free Sources</summary>
-
-
 ## Help & Support
 
 > [!NOTE]
