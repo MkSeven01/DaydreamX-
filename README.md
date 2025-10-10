@@ -66,6 +66,18 @@ git pull --force --allow-unrelated-histories
 ```
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/jkjkjiin/DaydreamX-"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/jkjkjiin/DaydreamX-/"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank" href="https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/BinBashBanana/deploy-buttons/archive/refs/heads/main.zip/"><img alt="Deploy to Oracle Cloud" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg"></a>
+<a target="_blank" href="https://app.cyclic.sh/api/app/deploy/jkjkjiin/DaydreamX-/"><img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg"></A>
+<a target="_blank" href="https://render.com/deploy?repo=https://github.com/jkjkjiin/DaydreamX-/"><img alt="Deploy to Render" src="https://render.com/images/deploy-to-render-button.svg"></a>
+<a target="_blank" href="https://fly.io/launch?repo=https://github.com/jkjkjiin/DaydreamX-/"><img alt="Deploy to Fly.io" src="https://img.shields.io/badge/Deploy%20to-Fly.io-blue?logo=fly.io"></a>
+<a target="_blank" href="https://deploy.azure.com/?repository=https://github.com/jkjkjiin/DaydreamX-/"><img alt="Deploy to Azure" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/azure.svg"></a>
+<a target="_blank" href="https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/jkjkjiin/DaydreamX-/"><img alt="Deploy to IBM Cloud" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/ibmcloud.svg"></a>
+<a target="_blank" href="https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/jkjkjiin/DaydreamX-/"><img alt="Deploy to Amplify Console" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/amplifyconsole.svg"></a>
+<a target="_blank" href="https://deploy.cloud.run/?git_repo=https://github.com/QuiteAFancyEmerald/Holy-Unblocker/"><img alt="Run on Google Cloud" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/googlecloud.svg"></a>
+
+
+<details><summary>Alternative Free Sources</summary>
+
 
 ## Help & Support
 
