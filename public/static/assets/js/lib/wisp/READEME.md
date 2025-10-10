@@ -228,7 +228,7 @@ This library is licensed under the GNU AGPL v3.
 ### Copyright Notice:
 ```
 wisp-js: a Wisp client implementation written in JavaScript
-Copyright (C) 2024 Mercury Workshop
+Copyright (C) 2025/2026 Mercury Workshop
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
