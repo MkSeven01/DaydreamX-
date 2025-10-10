@@ -2,10 +2,6 @@
 <div align="center">
         <img src="/assets/DDXBanner.png" style="width: 1200px"/>
     <h2>Explore the Web with DayDream X</h2>
-    ![GitHub Actions Status](https://github.com/jkjkjiin/DaydreamX-/workflows/CI-Production/badge.svg)
-    ![GitHub Actions Status](https://github.com/jkjkjiin/DaydreamX-/workflows/CI-Win/badge.svg)
-    [![Docker Image Version](https://img.shields.io/docker/v/quiteafancyemerald/holy-unblocker.svg)](https://hub.docker.com/r/quiteafancyemerald/holy-unblocker)
-    [![Docker Pulls](----)](https://hub.docker.com/r/jkjkjiin/DaydreamX-/)
 </div>
 
 ![inpreview](/assets/daydreamx.png)
