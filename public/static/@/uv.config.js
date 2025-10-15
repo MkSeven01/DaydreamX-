@@ -7,7 +7,7 @@ const blocked = [
   "ads.yahoo.com", "analytics.yahoo.com", "geo.yahoo.com", "udc.yahoo.com",
   "udcm.yahoo.com", "advertising.yahoo.com", "analytics.query.yahoo.com", "partnerads.ysm.yahoo.com",
   "log.fc.yahoo.com", "gemini.yahoo.com", "adtech.yahooinc.com", "extmaps-api.yandex.net",
-  "appmetrica.yandex.ru", "adfstat.yandex.ru", "metrika.yandex.ru",
+  "appmetrica.yandex.ru", "adfstat.yandex.ru", "metrika.yandex.ru", "google-analytics.com",
   "advertising.yandex.ru", "offerwall.yandex.net", "adfox.yandex.ru", "auction.unityads.unity3d.com",
   "webview.unityads.unity3d.com", "config.unityads.unity3d.com", "adserver.unityads.unity3d.com", "iot-eu-logser.realme.com",
   "iot-logser.realme.com", "bdapi-ads.realmemobile.com", "bdapi-in-ads.realmemobile.com", "api.ad.xiaomi.com",
@@ -26,7 +26,7 @@ const blocked = [
   "app-measurement.com", "analytics.google.com", "click.googleanalytics.com", "identify.hotjar.com",
   "events.hotjar.io", "o2.mouseflow.com", "gtm.mouseflow.com", "api.mouseflow.com",
   "realtime.luckyorange.com", "upload.luckyorange.net", "cs.luckyorange.net", "an.facebook.com",
-  "static.ads-twitter.com", "ads-api.twitter.com", "google-analytics.com",
+  "static.ads-twitter.com", "ads-api.twitter.com",
 ];
 
 const blockedsites = [
