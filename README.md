@@ -111,6 +111,7 @@ Please join our Discord to receive support for DayDreamX, receive links from the
 * [Eclipse-Proxy/Eclipse](https://github.com/Eclipse-Proxy/Eclipse)
 * [ading2210/Sandstone](https://github.com/ading2210/sandstone)
 * [MeteorProxy/meteor](https://github.com/MeteorProxy/meteor-old)
+* [kpx-main](https://github.com/kyladev/Kpx-main)
 
 ## License
 
