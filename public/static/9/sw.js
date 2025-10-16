@@ -14,3 +14,4 @@ async function handleRequest(event) {
 self.addEventListener('fetch', (event) => {
   event.respondWith(handleRequest(event));
 });
+// credits to https://github.com/kyladev/Kpx-main
